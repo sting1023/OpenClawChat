@@ -60,6 +60,10 @@ dependencies {
     implementation("com.google.code.gson:gson:2.10.1")
     implementation("com.github.bumptech.glide:glide:4.16.0")
     annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
+    // Hilt
+    implementation("com.google.dagger:hilt-android:2.48")
+    annotationProcessor("com.google.dagger:hilt-android-compiler:2.48")
+    // Compose
     implementation(platform("androidx.compose:compose-bom:2024.02.00"))
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
