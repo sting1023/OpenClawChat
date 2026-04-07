@@ -91,7 +91,7 @@ dependencies {
     kapt("com.github.bumptech.glide:compiler:4.16.0")
 
     // Compose BOM
-    implementation(platform("androidx.compose:compose-bom:2024.02.00"))
+    implementation(platform("androidx.compose:compose-bom:2024.06.00"))
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
@@ -100,3 +100,4 @@ dependencies {
     implementation("androidx.compose.runtime:runtime-livedata")
     debugImplementation("androidx.compose.ui:ui-tooling")
 }
+
