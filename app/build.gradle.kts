@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.openclaw.chat"
+    namespace = "com.sting.openclawchat"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.openclaw.chat"
+        applicationId = "com.sting.openclawchat"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
