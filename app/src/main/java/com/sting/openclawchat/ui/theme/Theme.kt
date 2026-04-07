@@ -16,6 +16,12 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
+// Chat bubble colors
+val AIBubbleColor = Color(0xFFE8E8E8)
+val AITextColor = Color(0xFF1A1A1A)
+val UserBubbleColor = Color(0xFF6366F1)
+val UserTextColor = Color(0xFFFFFFFF)
+
 private val Purple80 = Color(0xFFD0BCFF)
 private val PurpleGrey80 = Color(0xFFCCC2DC)
 private val Pink80 = Color(0xFFEFB8C8)
