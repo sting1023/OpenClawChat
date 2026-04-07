@@ -10,10 +10,18 @@ import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
+
+private val Purple80 = Color(0xFFD0BCFF)
+private val PurpleGrey80 = Color(0xFFCCC2DC)
+private val Pink80 = Color(0xFFEFB8C8)
+private val Purple40 = Color(0xFF6650a4)
+private val PurpleGrey40 = Color(0xFF625b71)
+private val Pink40 = Color(0xFF7D5260)
 
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,
