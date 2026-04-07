@@ -322,3 +322,4 @@ private fun getErrorDisplayMessage(error: ConnectionState.Error): String {
         ErrorType.UNKNOWN -> error.message
     }
 }
+
