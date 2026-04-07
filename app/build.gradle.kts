@@ -99,3 +99,5 @@ dependencies {
     implementation("androidx.compose.runtime:runtime-livedata")
     debugImplementation("androidx.compose.ui:ui-tooling")
 }
+
+    implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
