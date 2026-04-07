@@ -24,7 +24,7 @@ fun AppNavigation() {
             SetupScreen(
                 onNavigateToChat = {
                     navController.navigate(Routes.CHAT) {
-                        popUpTo(Routes.SETUP, inclusive = true)
+                        popUpTo(Routes.SETUP) { inclusive = true }
                     }
                 }
             )
@@ -33,7 +33,7 @@ fun AppNavigation() {
             ChatScreen(
                 onNavigateBack = {
                     navController.navigate(Routes.SETUP) {
-                        popUpTo(Routes.CHAT, inclusive = true)
+                        popUpTo(Routes.CHAT) { inclusive = true }
                     }
                 }
             )
