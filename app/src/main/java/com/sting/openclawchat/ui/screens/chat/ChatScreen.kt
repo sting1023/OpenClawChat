@@ -304,3 +304,4 @@ fun ChatBubble(message: ChatMessage) {
         }
     }
 }
+
